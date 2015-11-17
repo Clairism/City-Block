@@ -10,7 +10,7 @@ public class ColorTrigger : MonoBehaviour {
 
 	void Update(){
 
-		if (gameObject.GetComponent<PlayerTrigger1> ().OneEnter && gameObject.GetComponent<PlayerTrigger2> ().TwoEnter) {
+		if (gameObject.GetComponent<"PlayerTrigger1"> ().OneEnter && gameObject.GetComponent<"PlayerTrigger2"> ().TwoEnter) {
 
 			gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
 
